@@ -10,7 +10,6 @@ export default function App() {
     setRefreshing(true);
 
     setTimeout(() => {
-      // Optionally update data
       setData((prevData) => [
         ...prevData,
         {
